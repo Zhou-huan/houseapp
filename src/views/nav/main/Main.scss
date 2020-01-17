@@ -1,0 +1,37 @@
+$baseColor:#666;
+.main{
+    background-color: rgb(244, 245, 245);
+    height: 100%;
+    color:$baseColor;
+    #mainBox{
+        height:500px;
+        .search{
+            border-radius: 20px;
+            width: 60%;
+            height:30px;
+            line-height: 30px;
+            padding-left: 30px;
+            background: #fff url('../../../assets/imgs/search.png') 5px center /  20px 20px no-repeat;
+        }
+        .citySlet{
+            background-color:transparent;
+            border: 0;
+            color:#fff;
+        }
+        .iconMune,.houseIcon{
+            background-color:rgb(255, 255, 255);
+            padding:10px 0;
+            div{
+                text-align: center;
+            }
+        }
+        .am-grid-text{
+            color: $baseColor !important;
+            font-size: 14px !important;
+        }
+        .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon{
+            width:50px !important;
+            // height: 50px;
+        }
+    }
+}

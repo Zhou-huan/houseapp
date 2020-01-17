@@ -1,0 +1,141 @@
+.citys{
+    width: 100%;
+    height:100%;
+    background:rgb(219, 230, 235);
+    label{
+        color: #666;
+    }
+    .Title{
+        width:100%;
+        height:50px;
+        line-height: 50px;
+        font-size: 18px;
+        background-color: #fff;
+        text-align: center;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 5;
+        img{
+            position: absolute;
+            top:15px;
+            left:10px;
+        }
+    }
+    
+    .search_input {
+        position: relative;
+        color: #666;
+        input {
+            border: none;
+            width: 100%;
+            height:36px;
+            line-height: 36px;
+            border-radius: 5px;
+            background-color: #fff;
+            margin:10px auto;
+            text-indent:10px;
+        }
+        .search_res {
+            position: absolute;
+            width: 100%;
+            z-index: 3;
+            left: 0;
+            top: 54px;
+            box-sizing: border-box;
+            ul{
+                width: 100%;
+                height: 36px;
+                border-radius: 5px;
+                background-color: #fff;
+                line-height: 36px;
+                text-indent:10px;
+                color:#666;
+            }
+        }
+    }
+    
+    .failLoad{
+        width: 100%;
+        height:36px;
+        border-radius: 5px;
+        background: #fff url('../../assets//imgs//citydw.png') no-repeat 6px 10px;
+        background-size: 16px 16px;
+        margin:10px auto;
+        text-indent:30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 16px;
+            height: 16px;
+            margin-right:10px;
+        }
+    }
+
+    .newSee{
+        width: 30%;
+        height:36px;
+        line-height: 36px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-indent:10px;  
+        margin:10px;
+    }
+    .popCitys{
+        display: flex;
+        justify-content: space-between;
+        div{
+            width: 32%;
+            height:36px;
+            line-height: 36px;
+            border-radius: 5px;
+            background-color: #fff;
+            text-align: center;
+            margin: 10px 0;
+        }
+    }
+    .allLetter{
+        display: flex;
+        flex-flow: wrap;
+        background-color: #fff;
+        padding: 10px;
+        margin:10px 0;
+        li{
+            width:16.66%;
+            height:30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    #left_box{
+        position: fixed;//用固定定位来拆分两个元素的粘连事件
+        top:50px;
+        left:0;
+        height:500px;
+        width: 100%;
+        .cityItems{
+            display: flex;
+            flex-flow: wrap;
+            background-color: #fff;
+            padding: 10px;
+            margin:10px 0;
+            li{
+                width:33.3%;
+                height:30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .right_box{
+        position: fixed;
+        line-height: 28px;
+        top:50px;
+        right:0;
+        width: 20px;
+        text-align: center;
+    }
+}

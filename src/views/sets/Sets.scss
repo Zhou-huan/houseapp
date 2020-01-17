@@ -1,0 +1,25 @@
+.setPage{
+    width:100%;
+    height: 100%;
+    .header{
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:rgb(59, 137, 226);
+        color:#fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            position: fixed;
+            top:12px;
+            left:0;
+        }
+    }
+    #myMain{
+        height:500px;
+        margin-top: 50px;
+    }
+}
